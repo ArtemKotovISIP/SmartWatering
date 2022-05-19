@@ -8,7 +8,7 @@ from aiogram.utils import executor
 from threading import Thread
 from picamera import PiCamera
 
-API_TOKEN = "ur bot token"
+API_TOKEN = ""
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
